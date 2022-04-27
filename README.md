@@ -1,16 +1,15 @@
-# ParentalCountryOfBirth
-This STATA syntax creates three variables from MOPLBINB (Place of birth of mother of new birth on sample date) and three variables from FAPLBINB (place of birth of father of new birth on a sample date) from the NBIR table.
+# FatherCountryOfBirth
+This STATA syntax creates three variables from FAPLBINB (place of birth of father of new birth on a sample date) from the NBIR table.
 
 It gives them value labels.
 
 The three variables are:
-- MOPLPRE92 and FAPLPRE92 for 1971-1991.
-- MOPLFR92 and FAPLFR92 for 1992-2006.
-- MOPLFR07 and FAPLFR07 for 2007 onwards.
+- FAPLPRE92 for 1971-1991.
+- FAPLFR92 for 1992-2006.
+- FAPLFR07 for 2007 onwards.
 
 Variables needed for this code are from the NBIR file:
 - coreno
-- moplbinb (Place of birth of mother of new sample member)
 - faplbinb (Place of birth of father of new sample member)
 - biyranb (birth year of new sample member)
 	
