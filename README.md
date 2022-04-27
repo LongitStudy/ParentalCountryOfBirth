@@ -1,4 +1,4 @@
-# ParentalCountryOfBirth
+# FatherCountryOfBirth
 This STATA syntax creates three variables from FAPLBINB (place of birth of father of new birth on a sample date) from the NBIR table.
 
 It gives them value labels.
