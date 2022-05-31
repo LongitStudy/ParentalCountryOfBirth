@@ -1,14 +1,12 @@
 # FatherCountryOfBirth
-This STATA syntax creates three variables from FAPLBINB (place of birth of father of new birth on a sample date) from the NBIR table.
+This STATA syntax creates three variables from the variable faplbinb (place of birth of father of new birth on a sample date) from the NBIR table. It gives them value labels.
 
-It gives them value labels.
+The three derived variables are:
+- faplpre92 for births between 1971 and 1991.
+- faplfr92 for births between 1992 and 2006.
+- faplfr07 for births from 2007 onwards.
 
-The three variables are:
-- FAPLPRE92 for 1971-1991.
-- FAPLFR92 for 1992-2006.
-- FAPLFR07 for 2007 onwards.
-
-Variables needed for this code are from the NBIR file:
+The ariables needed for this code are from the NBIR file:
 - coreno
 - faplbinb (Place of birth of father of new sample member)
 - biyranb (birth year of new sample member)
