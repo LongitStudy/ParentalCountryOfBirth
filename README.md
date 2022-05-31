@@ -1,12 +1,10 @@
 # MotherCountryOfBirth
-This STATA syntax creates three variables from MOPLBINB (Place of birth of mother of new birth on sample date) from the NBIR table.
-
-It gives them value labels.
+This STATA syntax creates three variables from the variable moplbinb (Place of birth of mother of new birth on sample date) from the NBIR table. It gives them value labels.
 
 The three variables are:
-- MOPLPRE92 for 1971-1991.
-- MOPLFR92 for 1992-2006.
-- MOPLFR07 for 2007 onwards.
+- moplpre92 for births from 1971 to 1991.
+- moplfr92 for births from 1992 to 2006.
+- moplfr07 for births from 2007 onwards.
 
 Variables needed for this code are from the NBIR file:
 - coreno
