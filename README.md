@@ -1,4 +1,4 @@
-# ParentsCountryOfBirth
+# parentsCountryOfBirth
 This STATA syntax creates three variables from MOPLBINB (Place of birth of mother of new birth on sample date) and three variables from FAPLBINB (place of birth of father of new birth on a sample date) from the NBIR table.
 
 The derived variables are:
